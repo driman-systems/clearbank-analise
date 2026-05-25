@@ -1,0 +1,201 @@
+id,data,cliente_id,tipo,valor,descricao,categoria
+1,2026-06-13,CLI008,credito,2505.18,Bônus recebido,bonus
+2,2026-02-27,CLI009,credito,5392.14,Bônus recebido,bonus
+3,2026-05-20,CLI006,debito,93.90,Supermercado,compra
+4,2026-02-25,CLI015,credito,2032.79,Reembolso recebido,reembolso
+5,2026-06-16,CLI035,debito,1134.04,Restaurante,alimentacao
+6,2026-03-13,CLI001,credito,3420.21,Bônus recebido,bonus
+7,2026-03-13,CLI010,credito,1433.70,Transferência recebida,transferencia
+8,2026-04-08,CLI007,debito,1517.24,Aluguel,moradia
+9,2026-01-12,CLI030,credito,1288.56,Venda de produto,venda
+10,2026-03-17,CLI040,debito,496.88,Transferência enviada,transferencia
+11,2026-01-18,CLI003,credito,6908.37,Transferência recebida,transferencia
+12,2026-03-01,CLI007,debito,1144.46,Streaming,assinatura
+13,2026-04-04,CLI011,debito,539.58,Aluguel,moradia
+14,2026-03-10,CLI005,credito,5320.59,Reembolso recebido,reembolso
+15,2026-02-11,CLI030,debito,2474.02,Streaming,assinatura
+16,2026-06-13,CLI036,credito,2810.55,Bônus recebido,bonus
+17,2026-01-15,CLI015,credito,3287.22,Transferência recebida,transferencia
+18,2026-01-17,CLI014,debito,1645.49,Restaurante,alimentacao
+19,2026-04-12,CLI030,credito,1665.71,Transferência recebida,transferencia
+20,2026-05-24,CLI035,debito,1082.52,Transferência enviada,transferencia
+21,2026-05-30,CLI026,debito,2493.37,Restaurante,alimentacao
+22,2026-02-05,CLI033,debito,1894.34,Conta de luz,conta
+23,2026-01-29,CLI010,credito,3417.39,Bônus recebido,bonus
+24,2026-01-17,CLI025,debito,2490.38,Transferência enviada,transferencia
+25,2026-05-16,CLI017,debito,24566.20,Transferência de alto valor,transferencia
+26,2026-01-03,CLI008,debito,296.65,Aluguel,moradia
+27,2026-04-22,CLI011,debito,2385.46,Supermercado,compra
+28,2026-03-09,CLI033,credito,6458.29,Reembolso recebido,reembolso
+29,2026-06-10,CLI020,credito,3118.27,Pagamento freelance,servico
+30,2026-02-11,CLI035,credito,2809.77,Reembolso recebido,reembolso
+31,2026-01-05,CLI008,debito,613.84,Streaming,assinatura
+32,2026-03-03,CLI037,credito,5337.83,Salário mensal,salario
+33,2026-01-18,CLI035,credito,4890.46,Pagamento freelance,servico
+34,2026-05-21,CLI011,debito,2183.63,Compra online,compra
+35,2026-04-19,CLI014,credito,2732.64,Bônus recebido,bonus
+36,2026-06-21,CLI024,debito,1139.69,Compra online,compra
+37,2026-03-05,CLI015,credito,930.41,Transferência recebida,transferencia
+38,2026-05-22,CLI015,credito,1240.16,Salário mensal,salario
+39,2026-06-11,CLI004,credito,6413.60,Salário mensal,salario
+40,2026-03-26,CLI005,credito,4947.66,Transferência recebida,transferencia
+41,2026-02-24,CLI035,credito,6600.19,Bônus recebido,bonus
+42,2026-05-27,CLI037,debito,1965.86,Restaurante,alimentacao
+43,2026-04-15,CLI013,credito,4885.69,Salário mensal,salario
+44,2026-04-01,CLI028,debito,2162.32,Curso online,educacao
+45,2026-01-14,CLI007,credito,5314.92,Venda de produto,venda
+46,2026-01-28,CLI016,credito,4124.97,Pagamento freelance,servico
+47,2026-02-05,CLI028,credito,3668.29,Transferência recebida,transferencia
+48,2026-01-20,CLI029,credito,4843.30,Salário mensal,salario
+49,2026-05-19,CLI001,credito,1831.13,Pagamento freelance,servico
+50,2026-05-05,CLI031,credito,6395.15,Venda de produto,venda
+51,2026-02-12,CLI025,credito,2444.26,Venda de produto,venda
+52,2026-04-27,CLI019,debito,1661.44,Compra online,compra
+53,2026-05-05,CLI010,credito,2149.75,Transferência recebida,transferencia
+54,2026-01-15,CLI038,credito,2744.35,Bônus recebido,bonus
+55,2026-01-13,CLI038,debito,2300.08,Compra online,compra
+56,2026-05-16,CLI011,credito,1296.69,Reembolso recebido,reembolso
+57,2026-02-17,CLI005,credito,6143.28,Bônus recebido,bonus
+58,2026-04-14,CLI008,credito,4486.02,Reembolso recebido,reembolso
+59,2026-06-08,CLI006,debito,1421.76,Transferência enviada,transferencia
+60,2026-03-22,CLI017,credito,5240.39,Bônus recebido,bonus
+61,2026-03-03,CLI017,debito,1685.79,Internet residencial,conta
+62,2026-03-18,CLI030,debito,43.10,Conta de luz,conta
+63,2026-06-09,CLI037,credito,4133.33,Salário mensal,salario
+64,2026-05-10,CLI017,credito,6261.36,Transferência recebida,transferencia
+65,2026-03-04,CLI024,debito,1106.70,Internet residencial,conta
+66,2026-05-20,CLI020,credito,5866.05,Bônus recebido,bonus
+67,2026-03-18,CLI007,credito,1515.66,Transferência recebida,transferencia
+68,2026-01-28,CLI036,credito,2546.89,Transferência recebida,transferencia
+69,2026-02-23,CLI022,credito,4732.28,Bônus recebido,bonus
+70,2026-03-09,CLI033,debito,2265.23,Streaming,assinatura
+71,2026-01-14,CLI006,debito,129.34,Streaming,assinatura
+72,2026-03-27,CLI009,debito,1858.25,Internet residencial,conta
+73,2026-05-22,CLI028,credito,1266.51,Salário mensal,salario
+74,2026-06-26,CLI010,credito,18184.31,Transferência de alto valor,transferencia
+75,2026-04-05,CLI038,credito,1590.16,Venda de produto,venda
+76,2026-03-20,CLI024,credito,2102.47,Transferência recebida,transferencia
+77,2026-03-05,CLI007,debito,2212.65,Compra online,compra
+78,2026-04-15,CLI040,credito,6160.56,Pagamento freelance,servico
+79,2026-02-15,CLI027,credito,5366.70,Pagamento freelance,servico
+80,2026-03-27,CLI027,credito,1787.03,Transferência recebida,transferencia
+81,2026-06-29,CLI007,debito,2149.31,Supermercado,compra
+82,2026-02-26,CLI013,debito,776.87,Aluguel,moradia
+83,2026-02-28,CLI015,credito,1997.40,Bônus recebido,bonus
+84,2026-03-26,CLI018,credito,2977.11,Transferência recebida,transferencia
+85,2026-05-11,CLI026,debito,306.05,Supermercado,compra
+86,2026-03-08,CLI012,debito,288.84,Supermercado,compra
+87,2026-04-22,CLI023,debito,1523.40,Farmácia,saude
+88,2026-05-11,CLI008,debito,491.40,Transferência enviada,transferencia
+89,2026-01-12,CLI028,credito,6538.57,Reembolso recebido,reembolso
+90,2026-05-18,CLI013,debito,193.54,Farmácia,saude
+91,2026-06-20,CLI022,debito,1804.99,Conta de luz,conta
+92,2026-03-18,CLI033,debito,828.93,Farmácia,saude
+93,2026-06-28,CLI019,credito,3406.77,Pagamento freelance,servico
+94,2026-04-08,CLI012,debito,1378.88,Farmácia,saude
+95,2026-01-01,CLI020,debito,1086.12,Restaurante,alimentacao
+96,2026-05-29,CLI039,debito,1115.63,Curso online,educacao
+97,2026-06-22,CLI014,debito,1653.95,Internet residencial,conta
+98,2026-03-14,CLI033,debito,2049.69,Conta de luz,conta
+99,2026-03-02,CLI020,credito,1713.59,Pagamento freelance,servico
+100,2026-01-12,CLI016,debito,2127.35,Transferência enviada,transferencia
+101,2026-01-19,CLI030,debito,502.20,Transferência enviada,transferencia
+102,2026-06-28,CLI025,debito,625.08,Farmácia,saude
+103,2026-06-17,CLI001,credito,2156.82,Venda de produto,venda
+104,2026-06-28,CLI034,debito,1402.37,Supermercado,compra
+105,2026-02-01,CLI030,credito,4938.98,Venda de produto,venda
+106,2026-05-24,CLI039,debito,1539.38,Curso online,educacao
+107,2026-05-10,CLI028,debito,1864.27,Internet residencial,conta
+108,2026-05-02,CLI029,debito,2102.86,Restaurante,alimentacao
+109,2026-03-12,CLI034,debito,701.00,Restaurante,alimentacao
+110,2026-01-20,CLI019,credito,2882.25,Transferência recebida,transferencia
+111,2026-05-19,CLI006,credito,2233.82,Pagamento freelance,servico
+112,2026-06-27,CLI010,credito,3372.18,Salário mensal,salario
+113,2026-03-26,CLI035,debito,174.42,Farmácia,saude
+114,2026-04-18,CLI025,credito,3158.36,Reembolso recebido,reembolso
+115,2026-01-02,CLI023,debito,2136.55,Farmácia,saude
+116,2026-04-18,CLI035,credito,2160.41,Venda de produto,venda
+117,2026-04-22,CLI032,credito,2884.00,Venda de produto,venda
+118,2026-06-23,CLI026,credito,6501.16,Venda de produto,venda
+119,2026-06-09,CLI035,credito,4469.74,Venda de produto,venda
+120,2026-06-19,CLI002,credito,3457.40,Bônus recebido,bonus
+121,2026-04-29,CLI012,credito,3150.44,Transferência recebida,transferencia
+122,2026-02-24,CLI030,debito,1907.85,Aluguel,moradia
+123,2026-04-08,CLI018,debito,2090.58,Streaming,assinatura
+124,2026-05-01,CLI002,credito,2190.18,Transferência recebida,transferencia
+125,2026-01-18,CLI003,credito,2036.04,Pagamento freelance,servico
+126,2026-01-06,CLI040,credito,12286.58,Transferência de alto valor,transferencia
+127,2026-02-02,CLI031,credito,6676.09,Reembolso recebido,reembolso
+128,2026-04-30,CLI017,debito,1522.61,Internet residencial,conta
+129,2026-01-30,CLI011,debito,1455.14,Conta de luz,conta
+130,2026-03-21,CLI037,debito,2354.85,Farmácia,saude
+131,2026-02-20,CLI005,credito,5122.60,Salário mensal,salario
+132,2026-03-19,CLI039,credito,5652.34,Reembolso recebido,reembolso
+133,2026-03-30,CLI035,debito,191.01,Aluguel,moradia
+134,2026-06-15,CLI022,credito,5898.45,Venda de produto,venda
+135,2026-01-28,CLI028,debito,1774.13,Curso online,educacao
+136,2026-04-22,CLI012,debito,2024.33,Transferência enviada,transferencia
+137,2026-05-18,CLI031,debito,2067.82,Farmácia,saude
+138,2026-06-01,CLI018,debito,2080.21,Restaurante,alimentacao
+139,2026-01-23,CLI018,debito,1881.18,Restaurante,alimentacao
+140,2026-05-26,CLI040,debito,91.18,Aluguel,moradia
+141,2026-03-25,CLI012,debito,899.97,Restaurante,alimentacao
+142,2026-03-08,CLI022,debito,1758.94,Transferência enviada,transferencia
+143,2026-03-12,CLI036,credito,6677.99,Reembolso recebido,reembolso
+144,2026-01-22,CLI016,debito,1396.84,Curso online,educacao
+145,2026-03-03,CLI031,debito,1986.47,Curso online,educacao
+146,2026-01-24,CLI019,credito,5089.08,Venda de produto,venda
+147,2026-03-20,CLI038,debito,1392.61,Curso online,educacao
+148,2026-03-30,CLI028,debito,1763.08,Aluguel,moradia
+149,2026-03-11,CLI020,debito,319.23,Restaurante,alimentacao
+150,2026-02-19,CLI021,credito,4122.36,Bônus recebido,bonus
+151,2026-06-26,CLI012,credito,5379.35,Pagamento freelance,servico
+152,2026-03-12,CLI038,debito,2084.92,Conta de luz,conta
+153,2026-03-17,CLI015,debito,769.62,Internet residencial,conta
+154,2026-05-17,CLI009,debito,2436.25,Supermercado,compra
+155,2026-05-22,CLI019,credito,6184.46,Bônus recebido,bonus
+156,2026-05-06,CLI007,credito,2562.90,Reembolso recebido,reembolso
+157,2026-05-03,CLI029,debito,2414.43,Internet residencial,conta
+158,2026-03-06,CLI031,credito,3284.39,Salário mensal,salario
+159,2026-01-19,CLI037,credito,1725.03,Pagamento freelance,servico
+160,2026-05-25,CLI020,credito,1534.40,Pagamento freelance,servico
+161,2026-04-17,CLI039,credito,3158.34,Reembolso recebido,reembolso
+162,2026-04-24,CLI020,debito,1430.20,Streaming,assinatura
+163,2026-01-16,CLI040,credito,4678.19,Pagamento freelance,servico
+164,2026-03-09,CLI006,credito,1877.64,Pagamento freelance,servico
+165,2026-01-20,CLI011,credito,3593.12,Venda de produto,venda
+166,2026-06-02,CLI031,debito,594.06,Supermercado,compra
+167,2026-06-30,CLI019,debito,1724.71,Conta de luz,conta
+168,2026-03-09,CLI038,credito,19918.08,Transferência de alto valor,transferencia
+169,2026-02-20,CLI028,credito,2193.82,Reembolso recebido,reembolso
+170,2026-02-08,CLI018,credito,1169.76,Salário mensal,salario
+171,2026-03-20,CLI039,debito,328.40,Curso online,educacao
+172,2026-06-26,CLI020,debito,1261.17,Streaming,assinatura
+173,2026-05-07,CLI029,credito,1047.14,Reembolso recebido,reembolso
+174,2026-04-21,CLI021,debito,246.49,Supermercado,compra
+175,2026-06-22,CLI037,credito,5892.81,Bônus recebido,bonus
+176,2026-05-28,CLI003,credito,4017.58,Venda de produto,venda
+177,2026-04-24,CLI018,credito,3502.49,Reembolso recebido,reembolso
+178,2026-05-06,CLI006,debito,1032.70,Aluguel,moradia
+179,2026-03-24,CLI007,credito,3352.20,Transferência recebida,transferencia
+180,2026-05-07,CLI019,debito,111.01,Compra online,compra
+181,2026-01-23,CLI021,debito,307.49,Aluguel,moradia
+182,2026-04-14,CLI033,credito,6190.08,Bônus recebido,bonus
+183,2026-04-29,CLI027,credito,4014.32,Pagamento freelance,servico
+184,2026-06-09,CLI032,debito,524.82,Supermercado,compra
+185,2026-05-21,CLI009,debito,2204.50,Curso online,educacao
+,2026-01-15,CLI041,debito,120.00,ID vazio,compra
+ABC,2026-01-20,CLI042,credito,900.00,ID não numérico,servico
+188,2026-02-01,,debito,300.00,Cliente vazio,compra
+189,2026-13-10,CLI043,debito,250.00,Data inválida,conta
+190,10/03/2026,CLI044,credito,1000.00,Data fora do padrão,transferencia
+191,2026-03-18,CLI045,saque,400.00,Tipo inválido,outros
+192,2026-03-22,CLI046,debito,abc,Valor inválido,compra
+193,2026-04-02,CLI047,credito,0,Valor zero,servico
+194,2026-04-07,CLI048,debito,-50.00,Valor negativo,compra
+195,,CLI049,credito,1500.00,Data vazia,salario
+196,2026-05-11,CLI050,,99.90,Tipo vazio,assinatura
+197,2026-05-13,CLI051,debito,,Valor vazio,compra
+198,2026-05-20,   ,credito,800.00,Cliente com espaços,reembolso
+199,2026-06-01,CLI052,credito,1.2.3,Valor mal formatado,servico
+200,2026-06-31,CLI053,debito,700.00,Dia inexistente,conta
