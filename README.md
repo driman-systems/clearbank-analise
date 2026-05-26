@@ -1,51 +1,79 @@
 # ClearBank Análise Financeira
 
-Projeto desenvolvido em Python para leitura, validação e análise de transações bancárias a partir de um arquivo CSV.
+Projeto de análise de transações bancárias desenvolvido em Python, com foco em validação de dados, consolidação mensal de indicadores financeiros e identificação de movimentações potencialmente suspeitas.
 
-## Descrição
+## Visão Geral
 
-O objetivo do projeto é processar um arquivo `transacoes.csv`, validar os dados, descartar registros inválidos, agrupar as transações por mês, calcular métricas financeiras e identificar transações potencialmente suspeitas.
+O projeto processa o arquivo `transacoes.csv`, aplica regras de validação sobre os registros, separa transações válidas e inválidas, calcula métricas financeiras por mês e exporta um relatório estruturado em JSON.
 
-O relatório final é exibido no notebook e também exportado para o arquivo `relatorio.json`.
+A solução principal utiliza bibliotecas nativas do Python para leitura, tratamento e exportação dos dados. O notebook também inclui uma etapa complementar de análise exploratória com `pandas`, `numpy` e `matplotlib`.
 
-## Tecnologias utilizadas
+## Execução
+
+O notebook pode ser aberto no Google Colab ou no Jupyter Notebook. A análise utiliza o arquivo `transacoes.csv` na raiz do repositório e gera os arquivos `relatorio.json` e `grafico.png` no mesmo diretório.
+
+## Escopo da Análise
+
+- Leitura de transações em formato CSV.
+- Validação de campos obrigatórios.
+- Conversão e validação de datas.
+- Conversão e validação de valores monetários.
+- Classificação de transações válidas e inválidas.
+- Agrupamento mensal das movimentações.
+- Cálculo de totais, saldo, média, maior valor e menor valor.
+- Marcação de transações acima de R$ 10.000,00 como suspeitas.
+- Exportação do relatório final em JSON.
+- Geração de gráfico de saldo mensal.
+
+## Tecnologias
 
 - Python 3.10+
 - Google Colab
 - csv
 - json
 - datetime
+- pandas
+- numpy
+- matplotlib
 
-## Arquivos do projeto
+## Estrutura do Projeto
 
-- `desafio-final.ipynb`: notebook principal com a análise.
-- `transacoes.csv`: arquivo de entrada com as transações bancárias.
-- `relatorio.json`: arquivo gerado com o resultado da análise.
-- `README.md`: documentação do projeto.
+| Arquivo | Descrição |
+| --- | --- |
+| `desafio-final.ipynb` | Notebook principal da análise financeira. |
+| `transacoes.csv` | Base de entrada com as transações bancárias. |
+| `relatorio.json` | Relatório consolidado gerado pela análise. |
+| `grafico.png` | Gráfico de saldo mensal. |
+| `analise_pandas.py` | Versão complementar da análise com pandas. |
+| `README.md` | Documentação do projeto. |
 
-## Como executar
+## Pipeline de Processamento
 
-1. Abra o arquivo `desafio-final.ipynb` no Google Colab ou Jupyter Notebook.
-2. Certifique-se de que o arquivo `transacoes.csv` está disponível no caminho configurado no notebook.
-3. Execute todas as células em ordem.
-4. Ao final da execução, o relatório será exibido no terminal do notebook.
-5. O arquivo `relatorio.json` será gerado automaticamente.
+1. Carregamento dos registros do arquivo CSV.
+2. Validação dos campos `id`, `data`, `cliente_id`, `tipo` e `valor`.
+3. Separação entre registros válidos e inválidos.
+4. Enriquecimento dos dados válidos com mês de referência e indicador de suspeita.
+5. Consolidação mensal das métricas financeiras.
+6. Cálculo do período total analisado.
+7. Exportação do relatório em `relatorio.json`.
+8. Análise complementar com DataFrame e visualização gráfica.
 
-## Funcionalidades
+## Resultados
 
-- Leitura de arquivo CSV com `csv.DictReader`.
-- Tratamento de erro caso o arquivo CSV não seja encontrado.
-- Validação de campos obrigatórios.
-- Conversão de datas com `datetime`.
-- Conversão e validação de valores numéricos.
-- Agrupamento mensal das transações.
-- Cálculo de total de créditos, total de débitos, saldo, média, maior e menor valor.
-- Identificação de transações suspeitas acima de R$ 10.000,00.
-- Exportação do resultado em JSON.
+A base analisada contém 200 registros:
 
-## Saídas geradas
+| Indicador | Valor |
+| --- | ---: |
+| Linhas lidas | 200 |
+| Linhas válidas | 185 |
+| Linhas inválidas | 15 |
+| Transações suspeitas | 4 |
+| Período analisado | 2026-01-01 a 2026-06-30 |
 
-O notebook gera:
+## Saídas
 
-- Relatório financeiro mensal exibido no terminal.
-- Arquivo `relatorio.json` com os dados processados.
+O processamento gera os seguintes artefatos:
+
+- Relatório financeiro mensal exibido no notebook.
+- `relatorio.json` com resumo mensal, totais e transações suspeitas.
+- `grafico.png` com a evolução do saldo mensal.
